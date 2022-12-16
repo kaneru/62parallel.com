@@ -12,4 +12,19 @@
 .text {
   text-align: center;
   font-family: "Times New Roman", serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.image {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }

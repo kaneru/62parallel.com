@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import { Header } from "../components/header";
 
 export default function Home() {
   return (
@@ -8,16 +8,16 @@ export default function Home() {
       <Head>
         <title>Юность Севера</title>
       </Head>
-      <main className={styles.container}>
-        <div className={styles.wrapper}>
+      <Header />
+      <main>
+        <div className="grid place-items-center">
           <Image
-            src="/images/placeholder.jpg"
-            alt=""
-            width={360}
-            height={225}
-            className={styles.image}
+            src="/images/main-page/us.jpeg"
+            alt="Арт Юность Севера"
+            width={562}
+            height={640}
+            className="w-screen h-[auto] sm:w-[562px] sm:h-[640px] sm:mt-6"
           />
-          <p className={styles.text}>Coming sooon...</p>
         </div>
       </main>
     </>

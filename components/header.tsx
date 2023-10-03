@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 const HEADER_MENU_ITEMS = [
   { id: 0, title: "About", url: "/about" },
   { id: 1, title: "Pressa", url: "/press" },
-  // { id: 2, title: "Shop", url: "/shop" },
+  { id: 2, title: "Shop", url: "https://62parallel.tilda.ws/shop", isExternalLink: true },
   {
     id: 3,
     title: "Music",

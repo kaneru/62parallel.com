@@ -19,6 +19,14 @@ export default function Home() {
             className="w-screen h-[auto] sm:w-[562px] sm:h-[640px] sm:mt-6"
           />
         </div>
+        <div className="grid place-items-center">
+          <Image
+            src="/images/main-page/photo_2023-11-17 22.10.48.jpeg"
+            alt="Арт Юность Севера"
+            width={562}
+            height={640}
+            className="w-screen h-[auto] sm:w-[562px] sm:h-[640px] sm:mt-6"
+          />
       </main>
     </>
   );

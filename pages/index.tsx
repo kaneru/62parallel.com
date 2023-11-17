@@ -19,6 +19,11 @@ export default function Home() {
             className="w-screen h-[auto] sm:w-[562px] sm:h-[640px] sm:mt-6"
           />
         </div>
+
+         <div className="mt-8">
+              <p>в якутске жить одно удовольствие</p>
+         </div>
+        
         <div className="grid place-items-center">
           <Image
             src="/images/main-page/photo_2023-11-17 22.10.48.jpeg"

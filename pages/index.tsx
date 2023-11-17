@@ -27,6 +27,7 @@ export default function Home() {
             height={640}
             className="w-screen h-[auto] sm:w-[562px] sm:h-[640px] sm:mt-6"
           />
+        </div>
       </main>
     </>
   );
